@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: agnops/k8s-demo
-  pullPolicy: Never
+  repository: bennyat/k8s-go-job-demo
+  pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart version.
   tag: "latest"
 
