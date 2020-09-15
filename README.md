@@ -17,5 +17,5 @@ docker build -t k8s-demo .
 
 * Apply the helm chart
 ```
-helm3 upgrade --install myrelease ./k8s-demo
+helm3 upgrade --install myrelease ./k8s-demo --set image.repository=k8s-demo
 ```

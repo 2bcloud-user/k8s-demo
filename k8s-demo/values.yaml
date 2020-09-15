@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: k8s-demo
+  repository: agnops/k8s-demo
   pullPolicy: Never
   # Overrides the image tag whose default is the chart version.
   tag: "latest"
