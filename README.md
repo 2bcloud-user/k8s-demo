@@ -1,6 +1,6 @@
 # k8s-demo application for K8s API development
 
-* Preparation:
+* Preparation/Local run:
 ```
 cd app/
 go mod download
